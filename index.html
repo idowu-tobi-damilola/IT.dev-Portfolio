@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- --------  slide stroll css plugin ----- -->
+    <link rel="stylesheet" href="css/slideScrollProject.css">
     <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -28,7 +30,7 @@
    <link rel="stylesheet" href="/mdb.min.css">
   </head>
   <style>
-    .nav-resume{ position: relative; left: 27%;}
+    .nav-resume{ position: relative; left: 50%;}
     .more-update,.moreupdate{ text-align: left; color: #4aaff9;}
     .designtoolinfo {
       text-align: left;
@@ -414,7 +416,117 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border-radius: 50%;
   color: #ffffff;
 }
+
+
+
+@media screen and (max-width: 656px) {
+  ul .header-social {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+}
+@media screen and (max-width: 1136px) {
+  ul .header-social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 88px;
+    margin-bottom: 24px;
+  }
+}
+
+ul .header-social .header-social-ln {
+  background: url("./img/all-social/linkedin.svg");
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 656px) {
+  ul .header-social a {
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+}
+@media screen and (max-width: 1136px) {
+  ul .header-social a {
+    margin: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+ul .header-social a {
+  margin-left: 24px;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-width: 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  text-decoration: none;
+}
+
+
+ul .header-social .header-social-twitter.light {
+  background: url("./img/all-social/twitter_dark.svg");
+}
+
+
+ul .header-social .header-social-bh {
+  background: url("./img/all-social/behance.svg");
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+
+ul .header-social .header-social-ig {
+  background: url("./img/all-social/instagram.svg");
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.team-love .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+
+ul .header-social {
+  display: flex;
+}
 </style>
+
+
 
   <body id="home">
     <!--Header-->
@@ -427,9 +539,6 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                   <span>I</span>
                   <span>T</span>
                   <span style="color: #381fff;">.</span>
-                  <span>d</span>
-                  <span>e</span>
-                  <span>v</span>
               </div>
               </a>
 
@@ -455,6 +564,13 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                       <a class="btn bookhover btn-rounded waves-effect font-weight-bold btn-sm" href="./Idowu_Oluwatobi_Damilola_Resume.pdf" data-offset="90" style="color: #fff;" download="Idowu_Oluwatobi_Damilola_Resume.pdf">Download Resume</a>
                     </li>
                   </ul>
+
+                  <div class="header-social">
+                    <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/theuxda" class="header-social-ln"></a>
+                    <a target="_blank" rel="noopener" href="https://twitter.com/theuxda" class="header-social-twitter light"></a>
+                      <a target="_blank" rel="noopener" href="https://www.behance.net/theuxda" class="header-social-bh"></a>
+                    <a target="_blank" rel="noopener" href="https://www.instagram.com/theuxda" class="header-social-ig"></a>
+                  </div>
               </ul>
               <div class="hamburger">
                   <span class="bar"></span>
@@ -883,16 +999,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             
             r mx-auto w-responsive mb-5 wow fadeInLeft slow"> New Design Trends<br> - To achieve goals instantly. </p>
             <!-- Grid row -->
-            <div class="row">
-              <!-- Grid column -->
-     
-              <!-- Grid column -->
-          
-      
-              <!-- Grid column -->
-              
-              
-            </div>
+   
             <!-- Grid row -->
           </section>
           <!--Section: Content-->

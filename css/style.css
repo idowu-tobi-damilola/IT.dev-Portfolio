@@ -75,11 +75,11 @@ header,
 }
 
 .top-nav-collapse {
-  background: #fafafa !important;
+  background: #000 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: #fafafa !important;
+  background: #000 !important;
 }
 
 @media (min-width: 961px) {
@@ -91,7 +91,7 @@ header,
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #fafafa !important;
+    background: #000 !important;
   }
 }
 

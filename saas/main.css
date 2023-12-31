@@ -377,9 +377,14 @@ li {
   list-style: none;
 }
 
+
+.navbar-light .navbar-brand {
+  color:#fff!important;
+}
+
 a {
 
-  color:#080a0b;
+  color:#fff;
   text-decoration: none;
 }
 
@@ -408,10 +413,6 @@ a {
   
 }
 
-.nav-link {
-
-  transition: 0.7s ease;
-}
 
 .nav-link:hover {
 
@@ -465,7 +466,7 @@ a {
       top: 70px;
       gap: 0;
       flex-direction: column;
-      background-color: #262626;
+      background-color: #000;
       width: 100%;
       text-align: center;
       transition: 0.3s;
