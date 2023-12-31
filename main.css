@@ -286,7 +286,8 @@
     padding: 11px 25px 10px 30px;
     color: #040404;
     line-height: 1.5;
-    font-style: initial;
+    font-style: normal;
+    font-weight: bolder;
 }
 
 @-webkit-keyframes animatop {
