@@ -389,7 +389,7 @@ li {
   justify-content: space-between;
   align-items: center;
   gap: 6px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 
@@ -508,7 +508,14 @@ li {
 
   .nav-resume {
     position: relative;
-    left: 0%!important;
+    left: 2% !important;
+    bottom: 50px;
+  }
+
+  ul .header-social {
+
+     position: relative!important;
+     left: 5%!important;
   }
 
   .skillinfo {

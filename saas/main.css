@@ -403,7 +403,7 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 6px;
-  margin: 0 auto;
+  margin: 0px 15px 0px auto!important;
 }
 
 
