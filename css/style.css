@@ -43,7 +43,7 @@ header,
   body,
   header,
   .view {
-    height: 170vh;
+    height: 160vh;
   }
 }
 @media (min-width: 800px) and (max-width: 850px) {
