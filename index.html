@@ -22,6 +22,11 @@
     <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="/mdb.min.css">
 </head>
+<!-- //------ css all media query ---------//
+@media screen and (max-width: 1136px) - 
+@media screen and (max-width: 656px) -
+@media only screen and (max-width: 480px) - 
+------------- End media query ----------- -->
 <style>
     .nav-resume {
         position: relative;
@@ -368,24 +373,6 @@
         color: #ffffff;
     }
 
-    @media screen and (max-width: 656px) {
-        ul .header-social {
-            width: 100%;
-            justify-content: center;
-        }
-    }
-
-    @media screen and (max-width: 1136px) {
-        ul .header-social {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            align-items: center;
-            height: 88px;
-            margin-bottom: 24px;
-        }
-    }
-
     ul .header-social .header-social-ln {
         background: url("./img/all-social/linkedin.svg");
         background-position-x: 0%;
@@ -402,6 +389,11 @@
             margin-left: 28px;
             margin-right: 28px;
         }
+
+        ul .header-social {
+            width: 100%;
+            justify-content: center;
+        }
     }
 
     @media screen and (max-width: 1136px) {
@@ -411,6 +403,15 @@
             margin-left: 0px;
             margin-left: 40px;
             margin-right: 40px;
+        }
+
+        ul .header-social {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+            height: 88px;
+            margin-bottom: 24px;
         }
     }
 
@@ -691,7 +692,7 @@
                             bottom: 1rem;
                         }
                     </style>
-                    <h1 class="font-weight-bold text-center dark-grey-text pb-2 wow fadeInUp slow text-white">DESIGN. BUILD. >DELIVER.</h1>
+                    <h1 class="font-weight-bold text-center dark-grey-text pb-2 wow fadeInUp slow text-white">DESIGN. BUILD. DELIVER.</h1>
                     <hr class="w-header my-4" />
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-6 mb-4 mb-md-0 wow fadeInLeft slow">

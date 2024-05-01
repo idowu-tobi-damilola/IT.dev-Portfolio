@@ -1,3 +1,11 @@
+/* ------ css all media query -------- */
+/* @media only screen and (max-width: 480px)
+@media screen and (max-width: 1300px)
+@media screen and (max-width: 1024px) */
+/* ------ ---  End ------- */
+
+
+
 .menu-item, .menu-list { list-style-type: none!important;padding-left: 0px; text-decoration: none;margin-bottom: 15px; color: #9397a1; text-align: left;}
 .menu-link{color: #a1a5af;}
 .nav-item {padding-left: 0px;}
