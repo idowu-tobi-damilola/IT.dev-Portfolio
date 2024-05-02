@@ -43,8 +43,21 @@ header,
   body,
   header,
   .view {
-    height: 160vh;
+    height: 180vh;
   }
+
+  video {
+    position: relative!important;
+    top: 0px!important;
+    left: 146px!important;
+  }
+
+  .hero_head {
+
+    position: relative!important;
+    bottom: 45px!important;
+  }
+
 }
 @media (min-width: 800px) and (max-width: 850px) {
   html,
@@ -53,6 +66,8 @@ header,
   .view {
     height: 650px;
   }
+
+
 }
 
 .bookhover:hover {
