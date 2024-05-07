@@ -45,6 +45,13 @@ header,
   .view {
     height: 170vh;
   }
+
+  video {
+    position: relative!important;
+    top: 0px!important;
+    left: 146px!important;
+  }
+
 }
 @media (min-width: 800px) and (max-width: 850px) {
   html,
