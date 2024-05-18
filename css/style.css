@@ -39,14 +39,12 @@ header,
   min-height: 50%; 
   /* Setting width & height to auto prevents the browser from stretching or squishing the video */
   position: relative;
-  left: 130%!important;
+  left: 65%!important;
   top: 100px!important;
 }
 
 
 /* /////////////////////////////////////// */
-  
-
   
 
 @media (max-width: 740px) {
@@ -58,7 +56,13 @@ header,
    }
    
 
-
+   .video-container .img_reviewApp {
+    min-width: 50%;
+    min-height: 50%;
+    position: relative;
+    left: 70% !important;
+    top: 100px !important;
+}
 
 }
 @media (min-width: 800px) and (max-width: 850px) {
