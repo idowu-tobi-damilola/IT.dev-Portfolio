@@ -2,37 +2,6 @@
 /*! * Bootstrap Grid v4.3.1 (https://getbootstrap.com/) * Copyright 2011-2019 The Bootstrap Authors * Copyright 2011-2019 Twitter,Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 
 
-
-.mrt400{margin-top:400px}
-.green-arrow-left{background-image:url("../themes/uxda/assets/img/icons/arrow-green-left.svg");height:24px;width:24px}
-.green-arrow-right{background-image:url("../themes/uxda/assets/img/icons/arrow-green-right.svg");height:24px;width:24px}
-.uxda-play-link{font-size:16px;line-height:24px;color:#666;display:flex;align-items:center}
-.uxda-play-link span{height:24px;width:24px;display:block;margin-right:8px;background-image:url("../themes/uxda/assets/img/icons/play-green.svg")}
-.background-fa header{background-color:#fafafa}
-.background-fa header.sticky-header{background-color:#fafafa}
-.uxda-popover{background-color:white;padding:24px;max-width:336px;-webkit-box-shadow:0px 10px 60px 0px rgba(0,0,0,0.1);-moz-box-shadow:0px 10px 60px 0px rgba(0,0,0,0.1);box-shadow:0px 10px 60px 0px rgba(0,0,0,0.1);position:relative;border:none}
-.uxda-popover .arrow:before{border:none}
-.uxda-popover .uxda-popover-header{display:flex;align-items:center;margin-bottom:16px}
-.uxda-popover .uxda-popover-header .avatar{width:48px;height:48px;min-width:48px;min-height:48px;max-width:48px;max-height:48px;border-radius:100%;object-fit:cover;margin-right:8px}
-.uxda-popover .uxda-popover-header p{font-size:16px;line-height:24px;color:#333}
-.uxda-popover p{font-size:16px;line-height:24px;color:#666;margin-bottom:8px}
-.uxda-popover a{text-decoration:none;width:28px;height:28px;margin-right:16px}
-.uxda-popover a img{width:28px;height:28px}
-.uxda-popover .social{display:flex;align-items:center}
-.uxda-popover .social a{text-decoration:none;display:flex;width:28px;height:28px;min-width:28px;min-height:28px;margin-right:16px}
-.uxda-popover .social a img{width:28px;height:28px}
-.preview-popover{padding:0;border-radius:10px}
-.preview-popover .preview-url{width:auto;height:auto;margin:0}
-.preview-popover .uxda-popover-header{flex-direction:column;margin-bottom:0}
-.preview-popover .uxda-popover-header .preview{object-fit:cover;width:100%;height:176px;border-radius:10px 10px 0 0}
-.preview-popover .uxda-popover-header .pop-name{margin-bottom:5px;overflow:hidden;max-height:50px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-.preview-popover .uxda-popover-header .pop-description{color:#73767B;margin-bottom:0;overflow:hidden;max-height:40px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-.preview-popover .uxda-popover-header div{padding:10px 10px 0 10px}
-.preview-popover .pop-link{padding:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#73767B}
-.preview-popover .pop-link img{height:20px;color:#73767B;display:inline-block}
-.preview-popover .pop-link a{color:#73767B}
-
-
 .left-invisible-arrow{min-height:92%;min-width:30%;position:absolute;z-index:100;cursor:url("../themes/uxda/assets/img/gallery-arrow-left.svg"),auto;cursor:-webkit-image-set(url("../themes/uxda/assets/img/arrows/a-btn-navigation-big-left-normal.png") 1x,url("../themes/uxda/assets/img/arrows/a-btn-navigation-big-left-normal%402x.png") 2x) 0 0,auto}
 .right-invisible-arrow{min-height:92%;min-width:30%;position:absolute;right:0;z-index:100;cursor:url("../themes/uxda/assets/img/gallery-arrow-right.svg"),auto;cursor:-webkit-image-set(url("../themes/uxda/assets/img/arrows/a-btn-navigation-big-right-normal.png") 1x,url("../themes/uxda/assets/img/arrows/a-btn-navigation-big-right-normal%402x.png") 2x) 0 0,auto}
 .left-invisible-arrow-important{cursor:url("../themes/uxda/assets/img/gallery-arrow-left.svg"),auto !important;cursor:-webkit-image-set(url("../themes/uxda/assets/img/arrows/a-btn-navigation-big-left-normal.png") 1x,url("../themes/uxda/assets/img/arrows/a-btn-navigation-big-left-normal%402x.png") 2x) 0 0,auto !important}
